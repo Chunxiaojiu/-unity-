@@ -3,7 +3,7 @@
 ---
 初步认识画布`Canvas`，了解`button`，`text`，`image`，`slider`，`togger`，`Scrollbar`的简单使用。
 button在监听onclick事件时</br>
-![button onclick](https://github.com/Chunxiaojiu/-unity-/tree/master/pic/buttonclick.png)</br>
+![button onclick](https://raw.githubusercontent.com/Chunxiaojiu/-unity-/master/pic/buttononclick.png)</br>
 可以直接在上面的OnClick窗口中创建一个事件，调用对应的OnClick方法传递参数（下面是用于场景切换两种方法）
 
 方法一：
@@ -22,7 +22,7 @@ public void OnStartGame(string sceneName) {
 注意当存在两个场景是要先进行`buildsetting`将两个场景都放进去；
 `text`，`image`的使用很简单的直接进行修改即可，当然也有代码重载，暂时不提；
 `slider`和`scrollbar`这两个的运用场景根据名字是不一样的，slider常用于简单的音量数值调节，在这举个例子</br>
-![slider](https://github.com/Chunxiaojiu/-unity-/tree/master/pic/clipboard.png)</br>
+![slider](https://raw.githubusercontent.com/Chunxiaojiu/-unity-/master/pic/clipboard.png)</br>
 通过移动可以获得当前的精度条数值，直接进行传递</br>
 ```c#
 void Update () {
