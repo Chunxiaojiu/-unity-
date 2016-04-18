@@ -9,5 +9,6 @@ public class GameManager : MonoBehaviour {
     */
     public void OnStartGame(int Sceneindex) {
         Application.LoadLevel(Sceneindex);
+      
     }
 }
